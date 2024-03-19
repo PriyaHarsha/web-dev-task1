@@ -1,0 +1,135 @@
+body{
+  width:80%;
+  margin:auto;
+  padding-top:10px;
+}
+
+.container{
+  margin: 0;
+  border: 2px solid black;
+  border-top: 1px solid black;
+}
+
+h4, h2{
+  background-color: purple;
+  color: white;
+  text-align: center;
+  align-self: center;
+  padding: 0.5rem;
+  border-radius: 5px;
+  width: fit-content;
+  display: flex;
+  margin:0;
+}
+
+h3{
+  text-align: center;
+}
+
+hr{
+  border-top: 3px dashed purple;
+  width: 50%;
+}
+
+.end{
+  width: 10%;
+  transform: rotate(180deg);
+  vertical-align: middle;
+  align-self: flex-end;
+  height: auto;
+}
+
+.start{
+  align-self: flex-start;
+  width: 10%;
+  height: auto;
+  vertical-align: middle;
+}
+
+.development{
+  display: flex;
+}
+
+
+
+.profile{
+  background-color: rgb(163, 158, 152);
+  width:5em;
+  border-radius: 5rem;
+
+}
+
+.designation{
+  font-style: italic;
+  color: purple;
+  margin: 0;
+}
+
+.memberName{
+  font-weight: bold;
+  margin: 0; 
+}
+
+.details{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  
+}
+
+.individual{
+  margin: 1rem;
+  padding: 1rem;
+  text-align: center;
+}
+
+.companyDetails{
+  display:flex;
+  flex-direction: column;
+}
+
+#explanation {
+  text-align: center;
+  padding-left: 3rem;
+  padding-right: 3rem;
+}
+
+.teams{
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.heading{
+  width:80vw;
+  display:flex;
+  position: relative;
+}
+
+.heading2{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.center{
+  position: absolute;
+  right: 40%;
+}
+
+@media all and (max-width:760px) {
+  .center{
+    right:20%;
+  }
+}
+
+@media all and ( min-width:1440px) {
+  .center{
+    right:45%;
+  }
+  .start{
+    width: 5%;
+  }
+  .end{
+    width: 5%;
+  }
+}
